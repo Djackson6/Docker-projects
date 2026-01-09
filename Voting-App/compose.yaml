@@ -1,0 +1,28 @@
+name: voting-app
+
+services:
+  vote-app:
+    image: vote
+    ports:
+      - 8080:80
+
+  db:
+    image: postgres:alpine
+    env_file:
+      - .env
+    environment:
+      - ${POSTGRES_USER}
+      - ${POSTGRES_PASSWORD}
+
+  result-app:
+    image: result
+    ports:
+      - 8081:80
+
+  worker-app:
+    image: worker
+
+  redis:
+    image: redis:alpine
+
+
