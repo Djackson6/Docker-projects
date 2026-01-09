@@ -78,8 +78,9 @@ docker compose down --rmi local --volumes --remove-orphans
 
 * Writing and using a docker compose file
 * Building Docker images
-* Running containers
+* Running multiple containers at once 
 * Port mapping
+* Environments 
 * Using official base images (Redis/Postgres)
 * Serving an app inside a container
 
