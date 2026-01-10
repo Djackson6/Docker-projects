@@ -1,6 +1,6 @@
 # 🚀 Voting App Deployment with Docker Compose
 
-This project demonstrates deploying an example voting application with Docker Compose. The Compose file (compose.yaml) starts a vote frontend, a result frontend, a worker, Redis, and a Postgres database.
+This project demonstrates deploying voting application with Docker Compose. The Compose file (compose.yaml) starts a vote frontend, a result frontend, a worker, Redis, and a Postgres database.
 
 
 ## Services overview
@@ -100,3 +100,4 @@ This project reflects a **real-world container deployment pattern** commonly use
 By completing this project, you have:
 
 * Deployed a containerized web application using docker compose 
+
